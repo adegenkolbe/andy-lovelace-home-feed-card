@@ -14,9 +14,9 @@ export const formatDateTime = (toLocaleStringSupportsOptions()
   ? (dateObj, locales) =>
       dateObj.toLocaleString(locales, {
         year: "numeric",
-        month: "long",
+        month: "numeric",
         day: "numeric",
         hour: "numeric",
-        minute: "2-digit",
+        minute: "numeric",
       })
   : (dateObj) => fecha.format(dateObj, "haDateTime"));

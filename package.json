@@ -1,8 +1,8 @@
 {
-  "name": "lovelace-home-feed-card",
+  "name": "my-lovelace-home-feed-card",
   "private": true,
   "version": "0.4.0",
-  "description": "Lovelace Home Feed Card",
+  "description": "My Own Lovelace Home Feed Card",
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch --mode=development"
